@@ -153,6 +153,7 @@ img {
   line-height: 39px;
 }
 .hero-desc {
+  width: 465px;
   line-height: 24px;
 }
 .hero-btn {
@@ -231,6 +232,57 @@ img {
   text-decoration: underline;
 }
 /* SERVICES */
+/* WORK-DEMO */
+.work-demo {
+}
+.work-demo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work-demo-title {
+  text-align: center;
+}
+.work-demo-desc {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.work-demo-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 24px;
+}
+.work-demo-item {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.work-demo-info {
+  display: flex;
+  flex-direction: column;
+}
+.work-demo-img {
+}
+.work-demo-list-title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.work-demo-list-info {
+  font-size: 16px;
+  line-height: 24px;
+  width: 500px;
+}
+
+.work-demo-btn {
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 56px;
+}
+/* WORK-DEMO */
 /* FOOTER */
 .footer {
   padding-top: 56px;
