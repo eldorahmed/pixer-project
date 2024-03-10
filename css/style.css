@@ -51,6 +51,7 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+
 img {
   object-fit: cover;
   display: flex;
@@ -282,7 +283,36 @@ img {
   line-height: 24px;
   margin-bottom: 56px;
 }
-/* WORK-DEMO */
+/* WORK-DEMO  */
+
+/* SERVICE_HERO */
+.service-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 284px;
+}
+
+.service-hero-desc {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+.service-hero-title {
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+.service-hero-text {
+  line-height: 24px;
+  text-align: center;
+  width: 800px;
+  font-size: 16px;
+}
+/* SERVICE_HERO */
 /* FOOTER */
 .footer {
   padding-top: 56px;
