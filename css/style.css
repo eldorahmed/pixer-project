@@ -370,6 +370,63 @@ img {
 .footer-social-text {
   line-height: 20px;
 }
-.footer-social-img {
-}
 /* FOOTER */
+/* SERVICES LINKS */
+.sevices-lists {
+  background-color: #f4f4f4;
+}
+.services-lists-container {
+  display: flex;
+  justify-content: center;
+}
+
+.services-list {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-item {
+  padding-top: 32px;
+  margin-bottom: 64px;
+  background-color: #fff;
+  width: 804px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  box-shadow: 0px 10px 16px 0px #0000001f;
+}
+
+.services-lists-desc {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: -28px;
+}
+.services-lists-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.services-lists-info {
+  line-height: 24px;
+  height: 48px;
+  font-size: 16px;
+}
+.services-lists-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.services-lists-img {
+  width: 12px;
+  height: 12px;
+}
+.services-lists-text {
+  line-height: 24px;
+}
+/* SERVICES LINKS */
