@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pixer | Xizmatlar</title>
-    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
@@ -25,22 +25,24 @@
         <nav class="sitenav">
           <ul class="sitenav-list">
             <li class="sitenav-item">
-              <a href="../index.html" class="sitenav-link">Bosh sahifa</a>
+              <a href="../index.html" class="sitenav-link underline-effect"
+                >Bosh sahifa</a
+              >
             </li>
             <li class="sitenav-item">
-              <a href="#" class="sitenav-link">Xizmatlar</a>
+              <a href="#" class="sitenav-link underline-effect">Xizmatlar</a>
             </li>
             <li class="sitenav-item">
-              <a href="#" class="sitenav-link">Portfolio</a>
+              <a href="#" class="sitenav-link underline-effect">Portfolio</a>
             </li>
             <li class="sitenav-item">
-              <a href="#" class="sitenav-link">Jamoa</a>
+              <a href="#" class="sitenav-link underline-effect">Jamoa</a>
             </li>
             <li class="sitenav-item">
-              <a href="#" class="sitenav-link">Blog</a>
+              <a href="#" class="sitenav-link underline-effect">Blog</a>
             </li>
             <li class="sitenav-item">
-              <a href="#" class="sitenav-link">Kontaktlar</a>
+              <a href="#" class="sitenav-link underline-effect">Kontaktlar</a>
             </li>
           </ul>
         </nav>
@@ -381,6 +383,39 @@
       </div>
     </section>
     <!-- SERVICE LIST end -->
+    <!-- FORM -->
+    <div class="form-wrapper ser-form-wrapper">
+      <h3 class="order-form-title">Buyurtma berish</h3>
+      <p class="order-form-text">
+        Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam
+        facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus
+        mattis eros at sem pulvinar
+      </p>
+      <form id="form" action="#" method="#">
+        <input type="text" name="name" placeholder="Ismingiz" required />
+        <input
+          type="tel"
+          name="tel_number"
+          pattern="[0-9]*"
+          maxlength="15"
+          placeholder="Telefon raqamingiz"
+          required
+        />
+        <div class="custom-select">
+          <select name="service" required>
+            <option value="" disabled selected hidden>Xizmat turi</option>
+            <option value="Vebsayt">Vebsayt</option>
+            <option value="Telegram bot">Telegram bot</option>
+            <option value="SMM">SMM</option>
+            <option value="Grafik dizayn">Grafik dizayn</option>
+            <option value="CRM tizim">CRM tizim</option>
+          </select>
+          <span class="custom-arrow"></span>
+        </div>
+        <input type="submit" value="Buyurtma berish" />
+      </form>
+    </div>
+    <!-- FORM -->
     <!-- MAIN END -->
 
     <!-- FOOTER START -->
