@@ -33,6 +33,30 @@
                 class="sitenav-link underline-effect"
                 >Xizmatlar</a
               >
+              <ul class="sitenav-list-inner">
+                <li class="sitenav-item-inner">
+                  <a href="#services" class="sitenav-link-inner">Vebsayt</a>
+                  <a href="#form" class="btn-inner services-btn btn"
+                    >Buyurtma berish</a
+                  >
+                </li>
+                <li class="sitenav-item-inner">
+                  <a href="#services" class="sitenav-link-inner"
+                    >Telegram bot</a
+                  >
+                </li>
+                <li class="sitenav-item-inner">
+                  <a href="#services" class="sitenav-link-inner">SMM</a>
+                </li>
+                <li class="sitenav-item-inner">
+                  <a href="#services" class="sitenav-link-inner"
+                    >Grafik dizayn</a
+                  >
+                </li>
+                <li class="sitenav-item-inner">
+                  <a href="#services" class="sitenav-link-inner">CRM tizim</a>
+                </li>
+              </ul>
             </li>
             <li class="sitenav-item">
               <a href="#" class="sitenav-link underline-effect">Portfolio</a>
@@ -82,7 +106,7 @@
           ></iframe>
         </div>
       </section>
-      <section class="services">
+      <section id="services" class="services">
         <div class="services-container container">
           <h3 class="services-title">Xizmatlar</h3>
           <p class="services-desc">
@@ -262,7 +286,14 @@
           mattis eros at sem pulvinar
         </p>
         <form id="form" action="#" method="#">
-          <input type="text" name="name" placeholder="Ismingiz" required />
+          <input
+            type="text"
+            name="name"
+            placeholder="Ismingiz"
+            required
+            title="
+          Ismingizni kiriting!"
+          />
           <input
             type="tel"
             name="tel_number"
@@ -270,9 +301,10 @@
             maxlength="15"
             placeholder="Telefon raqamingiz"
             required
+            title="Telefon raqamingizni kiriting!"
           />
           <div class="custom-select">
-            <select name="service" required>
+            <select name="service" required title="Xizmat turini tanlang!">
               <option value="" disabled selected hidden>Xizmat turi</option>
               <option value="Vebsayt">Vebsayt</option>
               <option value="Telegram bot">Telegram bot</option>
